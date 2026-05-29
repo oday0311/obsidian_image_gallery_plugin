@@ -533,13 +533,13 @@ class ImagePreviewModal extends Modal {
 		this.previewContentEl = this.contentEl.createDiv({ cls: "image-gallery-preview-content" });
 		const navEl = this.previewContentEl.createDiv({ cls: "image-gallery-preview-nav" });
 		const presetGroupEl = navEl.createDiv({ cls: "image-gallery-preview-presets" });
-		this.createSizePresetButton(presetGroupEl, "小", 640, 480);
-		this.createSizePresetButton(presetGroupEl, "中", 820, 620);
-		this.createSizePresetButton(presetGroupEl, "大", 1000, 760);
-		this.createSizePresetButton(presetGroupEl, "超大", 1200, 860);
+		this.createSizePresetButton(presetGroupEl, "Small", 640, 480);
+		this.createSizePresetButton(presetGroupEl, "Medium", 820, 620);
+		this.createSizePresetButton(presetGroupEl, "Large", 1000, 760);
+		this.createSizePresetButton(presetGroupEl, "XL", 1200, 860);
 		this.prevButtonEl = navEl.createEl("button", {
 			cls: "mod-cta",
-			text: "上一张",
+			text: "Previous",
 		});
 		this.prevButtonEl.addEventListener("click", () => {
 			this.showPrevious();
@@ -547,7 +547,7 @@ class ImagePreviewModal extends Modal {
 
 		this.nextButtonEl = navEl.createEl("button", {
 			cls: "mod-cta",
-			text: "下一张",
+			text: "Next",
 		});
 		this.nextButtonEl.addEventListener("click", () => {
 			this.showNext();

@@ -5,7 +5,7 @@ import { spawn } from "node:child_process";
 const projectRoot = process.cwd();
 const pluginsRoot =
   process.env.OBSIDIAN_PLUGINS_DIR ??
-  "/Users/huangzhifang/Documents/Obsidian Vault/.obsidian/plugins";
+  "/Users/xxx/Documents/Obsidian Vault/.obsidian/plugins";
 
 const requiredFiles = ["main.js", "manifest.json"];
 const optionalFiles = ["styles.css", "versions.json"];

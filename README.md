@@ -91,7 +91,7 @@ npm run build:obsidian
 
 By default, the sync script copies files into:
 
-`/Users/huangzhifang/Documents/Obsidian Vault/.obsidian/plugins`
+`/Users/xxx/Documents/Obsidian Vault/.obsidian/plugins`
 
 You can override this by setting the `OBSIDIAN_PLUGINS_DIR` environment variable.
 
