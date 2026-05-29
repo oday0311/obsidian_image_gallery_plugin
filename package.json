@@ -1,7 +1,7 @@
 {
   "name": "obsidian-image-gallery",
   "version": "0.1.0",
-  "description": "An Obsidian plugin that collects images from the current note and shows them in a gallery view.",
+  "description": "Collects images from the current note and displays them in a gallery view.",
   "main": "main.js",
   "scripts": {
     "build": "node esbuild.config.mjs",
@@ -14,8 +14,16 @@
     "gallery",
     "images"
   ],
-  "author": "",
+  "author": "oday0311",
   "license": "MIT",
+  "homepage": "https://github.com/oday0311/obsidian_image_gallery_plugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oday0311/obsidian_image_gallery_plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oday0311/obsidian_image_gallery_plugin/issues"
+  },
   "type": "commonjs",
   "dependencies": {
     "obsidian": "^1.12.3"

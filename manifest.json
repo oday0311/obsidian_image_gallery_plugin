@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "minAppVersion": "1.5.0",
   "description": "Collects images from the current note and displays them in a gallery view.",
-  "author": "Trae",
-  "authorUrl": "https://obsidian.md",
+  "author": "oday0311",
+  "authorUrl": "https://github.com/oday0311",
   "isDesktopOnly": false
 }
