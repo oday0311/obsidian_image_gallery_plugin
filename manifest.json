@@ -1,0 +1,10 @@
+{
+  "id": "image-gallery-current-note",
+  "name": "Current Note Image Gallery",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Collects images from the current note and displays them in a gallery view.",
+  "author": "Trae",
+  "authorUrl": "https://obsidian.md",
+  "isDesktopOnly": false
+}
